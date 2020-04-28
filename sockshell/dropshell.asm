@@ -62,8 +62,8 @@ align 8
 
 addr:
 dw 2
-dw htons(1337)  ; port
-db 127, 0, 0, 1 ; ip
+dw htons(1337)    ; port
+db 10, 10, 16, 38 ; ip
 dq 0
 .end:
 

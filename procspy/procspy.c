@@ -83,6 +83,7 @@ int main()
 	dynarr_alloc(&pids, sizeof(pid_t));
 	for (;;) {
 		getprocs();
+		usleep(100000);
 	}
 	dynarr_free(&pids);
 }
